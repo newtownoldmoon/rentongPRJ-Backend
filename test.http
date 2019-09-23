@@ -1,0 +1,25 @@
+@url = http://127.0.0.1:2333/
+###
+
+GET {{url}}api
+###
+
+POST {{url}}api
+Content-Type:application/json
+
+{
+    "title":"物件10086",
+    "note":"啊ui然后啊被褥一笔u"
+}
+###
+
+PUT {{url}}api/5d88624361387c25a0174321
+Content-Type:application/json
+
+{
+    "title":"物件2"
+}
+###
+
+DELETE {{url}}api/5d7218fc73b259227ccb90e9
+###
